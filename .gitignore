@@ -2,3 +2,5 @@
 
 # Ignore input data files
 *.data
+*.swap
+.gitignore
