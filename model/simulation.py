@@ -84,8 +84,6 @@ def run_greedy_static(input_static):
     return instance
 
 
-def solve_opt()
-
 
 def main(file_d, file_loc, is_gen, solution, alpha, beta, eps1, eps2):
 
