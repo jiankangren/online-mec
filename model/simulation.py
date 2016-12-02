@@ -84,6 +84,9 @@ def run_greedy_static(input_static):
     return instance
 
 
+def solve_opt()
+
+
 def main(file_d, file_loc, is_gen, solution, alpha, beta, eps1, eps2):
 
     ni = 15
@@ -175,8 +178,8 @@ def main(file_d, file_loc, is_gen, solution, alpha, beta, eps1, eps2):
                 for j in range(nj):
                     mat_pre[i][j] = instance.x[i + 1, j + 1].value
 
-        print "The approximated static cost is: {}".format(stat_approx)
-        print "The approximated dynamic cost is: {}".format(dync_approx)
+        # print "The approximated static cost is: {}".format(stat_approx)
+        # print "The approximated dynamic cost is: {}".format(dync_approx)
         print "The approximited objective value is: {}".format(stat_approx + dync_approx)
 
 
@@ -225,8 +228,8 @@ def main(file_d, file_loc, is_gen, solution, alpha, beta, eps1, eps2):
                 for j in range(nj):
                     mat_pre[i][j] = instance.x[i + 1, j + 1].value
 
-        print "The greedy static cost is: {}".format(stat_greedy)
-        print "The greedy dynamic cost is: {}".format(dync_greedy)
+        # print "The greedy static cost is: {}".format(stat_greedy)
+        # print "The greedy dynamic cost is: {}".format(dync_greedy)
         print "The greedy objective value is: {}".format(stat_greedy + dync_greedy)
 
 
